@@ -114,10 +114,111 @@
 // 	cargo = "pleno"
 // }
 
-let valor;
-let salario = (prompt( 'Digite o seu salario'));
-let cargo = (salario < 5000)? "Junior":"Pleno";
-alert(` Seu cargo é ${cargo}  e seu salário é ${salario}`);
+// let valor;
+// let salario = (prompt( 'Digite o seu salario'));
+// let cargo = (salario < 5000)? "Junior":"Pleno";
+// alert(` Seu cargo é ${cargo}  e seu salário é ${salario}`);
+
+// Crie uma variável chamada “fruta”. Esta variável deve receber uma string com o nome de uma fruta.
+//  Após, crie uma estrutura condicional switch que receba esta variável e que possua três casos: 
+//  caso maçã, retorne no console: “Não vendemos esta fruta aqui”. Caso kiwi, retorne: “Estamos com escassez de kiwis”
+//  e caso melancia, retorne: “Aqui está, são 3 reais o quilo”. Teste com estas três opções e verifique o console do 
+//  seu navegador. Crie também um default, que retornará uma mensagem de erro no console.
+
+
+// let fruta = prompt('Escolha uma fruta[maca,kiwi,melancia]');
+
+// switch (fruta) {
+//     case 'maca':
+//         alert('Não vendemos esta fruta aqui');
+//         break;
+//     case 'kiwi':
+//         alert('Estamos com escassez de kiwis');
+//         break;
+//     case 'melancia ':
+//         alert('Aqui está, são 3 reais o quilo');
+//         break;
+//     default:
+//             alert('Error');           
+// }
+
+
+
+// let mes = parseInt(prompt('Digite um mês do ano[1-12]'));
+
+// switch(mes) {
+//     case 1:
+//        mes = 'Janeiro'
+//        break;
+//     case 2:
+//         mes = 'Fevereiro'
+//         break;
+//     case 3:
+//         mes = 'Março'
+//         break;
+//     case 4:
+//         mes = 'Abril'  
+//         break;
+//     case 1:
+//             mes = 'Maio'
+//         break;
+//     case 2:
+//              mes = 'Junho'
+//         break;
+//     case 3:
+//              mes = 'Julho'
+//         break;
+//     case 4:
+//              mes = 'Agosto'  
+//          break;
+//     case 5:
+//             mes = 'Setembro'
+//         break;
+//     case 2:
+//              mes = 'Outubro'
+//         break;
+//     case 3:
+//              mes = 'Novembro'
+//         break;
+//     case 4:
+//              mes = 'Dezembro'  
+//          break;
+//     default:
+//       mes = 'Mes inválido'         
+               
+// } 
+// alert(`O mes é ${mes}` );
+
+
+// 3. Calcule o valor do salario do dev conforme valores abaixos.
+// salario Base: R$ 2.500,00
+// salario Junior = salario base + 20%
+// salario Pleno = salario base + 35%
+// salario senior = salario base + 50% 
+
+
+
+// let cargo = prompt('Digite o seu cargo').toLowerCase();
+// let  base = 2500;
+// let novosalario ='';
+ 
+
+// switch (cargo){
+//     case 'junior':
+//         novosalario = parseInt( base * 1.20) ;
+//         break;
+//     case 'pleno':
+//          novosalario = parseInt( base * 1.35) ;
+//         break;
+//     case 'senior':
+//             novosalario = parseInt( base * 1.5) ;
+//         break;        
+//     default:
+//          alert ('Não é um cargo válido');  
+
+        
+// }
+// console.log (novosalario);
 
 
 

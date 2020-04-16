@@ -26,10 +26,10 @@
 
 // 5. Receba do usuários 3 números e calcule a média entre eles.
 
-const numero1 = prompt('Digite um primeiro numero');
-const numero2 = prompt('Digite o  segundo numero');
-const numero3 = prompt('Digite o  terceiro numero');
+// const numero1 = prompt('Digite um primeiro numero');
+// const numero2 = prompt('Digite o  segundo numero');
+// const numero3 = prompt('Digite o  terceiro numero');
 
-const media = (parseInt(numero1) + parseInt(numero2) + parseInt(numero3)) /3;
+// const media = (parseInt(numero1) + parseInt(numero2) + parseInt(numero3)) /3;
 
-alert(`A media é:${media}`);
+// alert(`A media é:${media}`);
